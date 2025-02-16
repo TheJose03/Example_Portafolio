@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio de un desarrollador ficticio en la industria Tech.">
+    <title>Portafolio Tech</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">Portafolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">Sobre Mí</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Proyectos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#experience">Experiencia</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+                <li class="nav-item"><button class="btn btn-dark" id="dark-mode-toggle">Modo Oscuro</button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="jumbotron text-center">
+        <div class="container">
+            <img src="https://th.bing.com/th/id/R.b9f450a49f67139e43e5fe34e03993be?rik=OQoy%2fniJI8NOYg&pid=ImgRaw&r=0" alt="Foto del Desarrollador" class="rounded-circle img-thumbnail">
+            <h1 class="display-4 animated-name">Jose Luis Sena </h1>
+            <p class="lead">Desarrollador Frontend con experiencia en tecnologías modernas y ciberceguridad.</p>
+        </div>
+    </section>
+
+    <section id="about" class="container py-5">
+        <h2>Sobre Mí</h2>
+        <p>Soy un desarrollador apasionado por la tecnología y la innovación. Me especializo en el desarrollo frontend y tengo experiencia en diversas tecnologías web.</p>
+    </section>
+
+    <section id="projects" class="container py-5">
+        <h2>Proyectos</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card project-card">
+                    <img src="https://www.tucanit.com/wp-content/uploads/2021/10/almadraba.jpg" class="card-img-top img-thumbnail" alt="Proyecto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Proyecto 1</h5>
+                        <p class="card-text">Descripción del proyecto 1.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card project-card">
+                    <img src="https://www.tucanit.com/wp-content/uploads/2021/10/oficina.jpg" class="card-img-top img-thumbnail" alt="Proyecto 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Proyecto 2</h5>
+                        <p class="card-text">Descripción del proyecto 2.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card project-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMIjzhc7m8zFXXhW09E_ZnBNVNRCAwdKZHAQ&s" class="card-img-top img-thumbnail" alt="Proyecto 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Proyecto 3</h5>
+                        <p class="card-text">Descripción del proyecto 3.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="container py-5">
+        <h2>Experiencia Profesional</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card experience-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Empresa 1</h5>
+                        <p class="card-text">Descripción de la experiencia en Empresa 1.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card experience-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Empresa 2</h5>
+                        <p class="card-text">Descripción de la experiencia en Empresa 2.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card experience-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Empresa 3</h5>
+                        <p class="card-text">Descripción de la experiencia en Empresa 3.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container py-5">
+        <h2>Contacto</h2>
+        <p>Puedes encontrarme en las siguientes redes sociales:</p>
+        <div class="social-icons">
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-github"></a>
+            <a href="#" class="fab fa-twitter"></a>
+        </div>
+    </section>
+
+    <footer class="bg-light text-center py-3">
+        <p>&copy; 2025 Jose luis Sena. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
