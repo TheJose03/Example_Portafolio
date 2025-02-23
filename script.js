@@ -13,6 +13,9 @@ document.addEventListener('DOMContentLoaded', function() {
     if (darkModeEnabled) {
         body.classList.add('dark-mode');
         navbar.classList.add('dark-mode');
+        darkModeToggle.textContent = 'Modo Claro';
+    } else {
+        darkModeToggle.textContent = 'Modo Oscuro';
     }
 
     // Event listener para cambiar el modo oscuro al hacer clic en el botón
@@ -24,11 +27,13 @@ document.addEventListener('DOMContentLoaded', function() {
             body.classList.remove('dark-mode');
             navbar.classList.remove('dark-mode');
             localStorage.setItem('darkMode', 'disabled');
+            darkModeToggle.textContent = 'Modo Oscuro';
         } else {
             // Si no está en modo oscuro, lo activa
             body.classList.add('dark-mode');
             navbar.classList.add('dark-mode');
             localStorage.setItem('darkMode', 'enabled');
+            darkModeToggle.textContent = 'Modo Claro';
         }
     });
 });
